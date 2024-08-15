@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./imagenes/padlock-303266_640.png">
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" rel="">
+            <img src="./imagenes/padlock-locked-with-an-eye-shape-in-a-circle-svgrepo-com.svg" alt="Logo Encriptador" class="logo">
+        </a>
+    </header>
+
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+
+            <div class="encriptador-aviso">
+                <img src="./imagenes/aviso.svg" alt="Imagen aviso" class="img-aviso">
+
+                <p class="texto-aviso">Solo letras minúsculas y sin acentos</p>
+            </div>
+
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">Encriptar</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="tarjeta">
+            <div class="tarjeta-contenedor">
+                <img src="./imagenes/robber-surveillance-through-a-video-camera-svgrepo-com.svg" alt="Imagen-muñeco" class="img-muñeco">
+                <p class="texto-uno">Ningún mensaje fue encontrado</p>
+                <p class="texto-dos">Ingrese el texto que deseas encriptar o desencriptar</p>
+            </div>
+
+            <textarea type="mensaje" class="evaluar" readonly></textarea>
+            <button type="submit" class="btn-copiar">Copiar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p class="copyright">Encriptador de Texto <br>
+            Desarrollado por Andrés Arzola Navarrete <br>
+            &copy; copyright 2024 México</p>
+        <a href="https://www.linkedin.com/in/andr%C3%A9s-arzola-navarrete-93565a244/" rel="">
+            <img src="./imagenes/icons8-linkedin-50.png" alt="logo-linkedin" class="linked"></a>
+        <a href="https://github.com/AndresInArz" rel="">
+            <img src="./imagenes/icons8-github-50.png" alt="logo Github" class="git"></a>
+    </footer>
+    
+
+    <script src="./JS/encriptador.js"></script>
+</body>
+</html>
